@@ -1,0 +1,29 @@
+# 密钥和本地文件（绝不进仓库）
+.env
+.env.local
+aria2-secret.txt
+rclone.conf
+storages.json
+job_seq.json
+timezones.json
+channels.json
+
+# 运行产生的文件
+downloads/
+*.log
+bot.log
+bot.pid
+*.session
+*.session-journal
+__pycache__/
+*.pyc
+.venv/
+.setup-tmp/
+bin/
+
+# 工作日志（个人记录，不公开）
+REPORT.md
+
+# 系统文件
+.DS_Store
+Thumbs.db
